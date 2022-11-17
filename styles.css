@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+header {
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(87deg, rgba(255,255,255,0.7628093473717612) 0%, rgba(179,173,253,1) 100%, rgba(148,139,252,1) 100%);
+}
+h2,h3,h4,h5,h6 {
+    padding: 20px;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+#ads img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    position: absolute;
+    margin-left: 10px;
+}
+#ads {
+    height: fit-content;
+    min-height: 240px;
+    position: relative;
+}
+
+@media only screen and (min-width: 481px){
+    #ads {
+        min-height: 420px;
+    }
+}
+@media only screen and (min-width: 769px){
+    #ads {
+        min-height: 400px;
+    }
+}
